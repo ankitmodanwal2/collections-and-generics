@@ -15,6 +15,7 @@ public class CountryCapital {
         for(String key : map.keySet()){
 
             System.out.printf("%s : %s\n",key,map.get(key));
+            System.out.println("changed successfully");
         }
     }
 }
